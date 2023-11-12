@@ -1,7 +1,16 @@
 # magic-star-solver
 Magic Start solver MATLAB algorithm 
+This script solves the star placement below with the following numbers required to put in the empty places: 9,6,10,5,8,4,12,6,8.
 
-```
+Original puzzle:
+
+![original](https://github.com/huszy/magic-star-solver/assets/614902/9a6c3536-537a-4181-b357-03a185528d08)
+
+Possible solution:
+
+![solved](https://github.com/huszy/magic-star-solver/assets/614902/7c3064ca-eed6-4ea1-b58b-4ac6552ce9a1)
+
+```MATLAB
 calculateStar();
 
 function calculateStar
